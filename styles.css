@@ -17,6 +17,25 @@ body > div:first-child {
 body > div:nth-child(2) { 
     border: 1px solid blue;
     flex: 2 2 0;
+    display:flex;
+    flex-direction: column;
+}
+
+#hero { 
+    border: 1px solid red; 
+    flex: 1.2;
+}
+#form { 
+    border: 1px solid orange;
+    flex:1;
+}
+#CTA { 
+    border: 1px solid green;
+    flex: 1.1;
+}
+
+#hero, #CTA { 
+    background-color: rgb(243, 244, 246);
 }
 
 
