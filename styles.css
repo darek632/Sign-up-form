@@ -170,7 +170,7 @@ max-height: 100%; */
     position: absolute;
     width: 100%;
     top: 8rem; 
-    
+    font-family: 'norsebold';
     height: 4rem;
     display: flex;
     align-items: center;
@@ -181,9 +181,23 @@ max-height: 100%; */
 
 .image-holder { 
     position: relative;
-    font-family: 'norsebold';
+   
     /* need to set any position on the parent element for the absolute to be in relation to
     parent element.  */
+}
+
+.credits { 
+    position:absolute;
+    bottom: 0.5rem;
+    width: 100%;
+    text-align: center;
+    font-size: 0.6rem;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.credits > a { 
+    color: white;
 }
 
 
