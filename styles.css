@@ -94,7 +94,7 @@ input,label {
 input { 
     border: 1px solid #E5E7EB;
     height: 1.3rem;
-    width: 12rem;
+    width: 10rem;
     margin-top: 3px;
   
 }
@@ -133,7 +133,7 @@ button {
     width:10.5rem;
     height:2.5rem;
     border: none;
-    background-color: rgb(213, 117, 33);
+    background-color: rgba(224,127,104,255);
     border-radius: 8px;
     color: white;
     letter-spacing: 0.5px;
@@ -150,7 +150,7 @@ button {
 a { 
     text-decoration: none;
     font-weight: bold;
-    color: rgb(213, 117, 33);
+    color: rgba(224,127,104,255);
 }
 
 .image-holder { 
@@ -169,9 +169,9 @@ max-height: 100%; */
     color: white;
     position: absolute;
     width: 100%;
-    top: 8rem; 
+    top: 12rem; 
     font-family: 'norsebold';
-    height: 4rem;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;;
@@ -200,7 +200,10 @@ max-height: 100%; */
     color: white;
 }
 
-
+img { 
+    max-height: 80%;
+    padding:8px;
+}
 
 
 
