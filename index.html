@@ -15,7 +15,7 @@
 <div>
     <header id="hero">
      <div class="hero-text">
-        <p>Welcome to the Heptathlon Hangout account. Here you will be able to view your track and field stats and rankings. <br/> Sign up <em>now</em> to get started.  </p>
+        <p>Welcome to Heptathlon Hangout. Here you will be able to view your track and field stats and rankings. <br/> Sign up <em>now</em> to get started.  </p>
         <p>You <em>know</em> you want to.</p>
         
     </div>
@@ -43,11 +43,12 @@
             </div>
             <div class="form-content">
                 <label for="password">PASSWORD</label>
-                <input id="password" name="password" type="password"/>
+                <input id="password" name="password" type="password" pattern="^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[@#$%^&+=]).{8,}$" title="Password must contain at least 8 characters, including one letter, one number, and one special character (@#$%^&+=)" required/>
+                <span class="error-message"> *Passwords do not match</span>
             </div>
             <div class="form-content">
                 <label for="confirm-password">CONFIRM PASSWORD</label>
-                <input id="confirm-password" name="confirm-password" type="password"/>
+                <input id="confirm-password" name="confirm-password" type="password" pattern="^(?=.*[A-Za-z])(?=.*[0-9])(?=.*[@#$%^&+=]).{8,}$" title="Password must contain at least 8 characters, including one letter, one number, and one special character (@#$%^&+=)" required/>
             </div>
         </form>
     </div>

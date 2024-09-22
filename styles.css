@@ -129,6 +129,11 @@ input, input:not(:focus) {
     border: 1px solid #E5E7EB;
 }
 
+/* #password:not(:focus), #confirm-password:not(:focus) {
+    border:1px solid rgba(235, 23, 23, 1);
+} */
+
+
 button {
     width:10.5rem;
     height:2.5rem;
@@ -205,6 +210,20 @@ img {
     padding:8px;
 }
 
+.error-message { 
+    font-size: 0.5rem;
+    color: rgba(235, 23, 23, 1);
+    display:none;
+}
+
+#password:not(:focus):invalid + .error-message { 
+    display: none;
+}
+    
+
+#password:invalid + .error-message { 
+display: inline;
+}
 
 
 
